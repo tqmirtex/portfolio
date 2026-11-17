@@ -152,10 +152,6 @@ textarea {
   transition: color 160ms ease, opacity 160ms ease;
 }
 
-.site-nav:hover a {
-  color: #a4a7ae;
-}
-
 .site-nav a[aria-current="page"] {
   color: var(--color-ink);
   background: transparent;

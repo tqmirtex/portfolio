@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ja" class="no-js">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Blog — tqmirtex.com</title>
+  <meta name="description" content="山本拓実のブログ記事一覧">
+  <link rel="icon" href="../assets/images/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a class="site-logo" href="../">tqmirtex.com</a>
+      <button class="nav-toggle" type="button" aria-label="メニューを開く" aria-expanded="false" aria-controls="site-nav">
+        <span></span><span></span>
+      </button>
+      <nav class="site-nav" id="site-nav">
+        <a href="../">Top</a>
+        <a href="../works/">Works</a>
+        <a href="../blog/" aria-current="page">Blog</a>
+        <a href="../contact/">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-head">
+      <div class="orbs" aria-hidden="true">
+        <span class="orb orb--sky"></span>
+        <span class="orb orb--peach"></span>
+      </div>
+      <div class="container">
+        <h1 class="page-head__title reveal">Blog</h1>
+      </div>
+    </section>
+
+    <section class="section section--tight">
+      <div class="container">
+        <ul class="post-list" data-blog-list data-per-page="15"></ul>
+        <nav class="pagination" data-pagination="blog" aria-label="ページ送り"></nav>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <a class="site-logo" href="../">tqmirtex.com</a>
+      <ul class="site-footer__links">
+        <li><a href="https://x.com/tqmirtex" target="_blank" rel="noopener">X</a></li>
+        <li><a href="https://github.com/tqmirtex" target="_blank" rel="noopener">GitHub</a></li>
+      </ul>
+      <p class="site-footer__copy">&copy; <span data-year></span> tqmirtex</p>
+    </div>
+  </footer>
+
+  <script src="../assets/js/data/blog.js"></script>
+  <script src="../assets/js/main.js"></script>
+</body>
+</html>

@@ -276,7 +276,7 @@ h3 {
 
 .hero h1 {
   font-size: 64px;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 .hero-title {
@@ -1263,7 +1263,7 @@ main { position: relative; }
 .site-logo {
   font-family: var(--f-display);
   font-size: 22px;
-  font-weight: 600;
+  font-weight: 400;
   letter-spacing: -0.3px;
   color: var(--c-ink);
 }
@@ -1367,6 +1367,22 @@ main { position: relative; }
   padding: 120px 0 var(--s-section);
 }
 .hero__inner { position: relative; z-index: 1; }
+
+.hero__avatar {
+  position: absolute;
+  top: 0;
+  right: var(--s-lg, 24px);
+  width: 420px;
+  height: auto;
+  pointer-events: none;
+}
+/* Below this width the icon would have to shrink, so hide it and center the profile block */
+@media (max-width: 1311px) {
+  .hero__avatar { display: none; }
+  .hero__title { text-align: center; }
+  .profile { margin-left: auto; margin-right: auto; }
+  .hero .social { justify-content: center; }
+}
 
 .hero__title {
   margin-top: var(--s-lg);

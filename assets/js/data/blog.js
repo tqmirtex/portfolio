@@ -12,10 +12,6 @@
  * NOTE: All entries below are sample content. Replace them with your own posts.
  */
 window.BLOG = [
-  { title: "フレームワークを使わずにポートフォリオを作る", date: "2026-11-10", type: "Zenn",  link: "https://example.com/" },
-  { title: "大学1年目を振り返って",   date: "2026-09-28", type: "note",  link: "https://example.com/" },
-  { title: "ESP32とMicroPythonをはじめる", date: "2026-07-14", type: "Qiita", link: "https://example.com/" },
-  { title: "フーリエ級数のやさしい入門",  date: "2026-06-03", type: "Zenn",  link: "https://example.com/" },
-  { title: "2026年のターミナル環境",                date: "2026-04-21", type: "note",  link: "https://example.com/" },
-  { title: "読書リスト: 春学期",            date: "2026-03-09", type: "note",  link: "https://example.com/" }
+  { title: "「PHP騒動」って結局何だったの？専門知識ゼロでもわかる！図解でやさしく解説", date: "2026-11-12", type: "note",  link: "https://note.com/wavecoreinc/n/ne6cce68a6188" },
+  { title: "【独自検証】 AI画面操作「Computer Use」はどこまでで役に立つ？話題の最新AIモデルに実際に仕事をさせてみた",   date: "2026-11-07", type: "note",  link: "https://note.com/wavecoreinc/n/n2995ad2f439a" },
 ];

@@ -19,54 +19,24 @@ window.WORKS = [
   {
     id: "tqmirtex-com",
     title: "tqmirtex.com",
-    thumbnail: "assets/images/works/tqmirtex-com.svg",
+    thumbnail: "assets/images/works/tqmirtex.com.png",
     date: "2026-11-17",
     type: "Web",
     stack: ["HTML", "CSS", "JavaScript"],
     body: `
-      <p>このサイトです。フレームワークやビルドツールを使わずに作った小さな静的ポートフォリオで、GitHub Pagesで公開しています。</p>
-      <h2>メモ</h2>
-      <p>実績とブログ記事は素のJavaScriptのデータファイルで管理しており、追加するときは1つのファイルを編集するだけで済みます。</p>
-      <ul>
-        <li>静的なHTML・CSS・素のJavaScript</li>
-        <li>レスポンシブ対応のレイアウトとページ送り</li>
-        <li>訪問者のメールアプリでメールを作成するお問い合わせフォーム</li>
-      </ul>
+      <p>この<a href="https://tqmirtex.com/">ポートフォリオページ</a>の構築。無駄をそぎ落とした、シンプルで上品なデザインを意識しました。<br>フレームワークを使わずHTML / CSS / JavaScriptのみでシンプルに構築し、軽快な動作と余白を活かしたミニマルなデザインを両立させています。</p>
     `
   },
   {
-    id: "sample-circuit-simulator",
-    title: "Circuit Simulator",
-    thumbnail: "assets/images/works/sample-02.svg",
-    date: "2026-08-02",
-    type: "App",
-    stack: ["TypeScript", "Canvas API"],
+    id: "file-converter",
+    title: "ファイル変換拡張機能",
+    thumbnail: "assets/images/works/ファイル変換拡張機能.png",
+    date: "2026-11-15",
+    type: "Web",
+    stack: ["HTML", "CSS", "JavaScript"],
     body: `
-      <p>サンプルです。制作の背景、作ったもの、学んだことを書きます。</p>
-      <h2>概要</h2>
-      <p>簡単な回路を描いて、電圧や電流をリアルタイムで観察できるブラウザ上のツールです。</p>
+      <p>ファイル変換をローカルで完結させることができるChrome拡張機能です。<br>サイドパネルにファイルをドラッグ&ドロップするか、コピーしたファイルをペーストし、変換先のファイル形式を選択します。また、Chromeの読み取り権限を与えることで、画像ファイル上で右クリックをすると直接変換して保存することができます。<br><a href="https://github.com/tqmirtex/chromium-converter">こちら</a>からダウンロードが可能です。</p>
     `
   },
-  {
-    id: "sample-sensor-logger",
-    title: "Sensor Logger",
-    thumbnail: "assets/images/works/sample-03.svg",
-    date: "2026-05-20",
-    type: "Hardware",
-    stack: ["C++", "ESP32", "Python"],
-    body: `
-      <p>サンプルです。温度と湿度を記録して可視化する、マイコンを使ったロガーです。</p>
-    `
-  },
-  {
-    id: "sample-cli-tool",
-    title: "Dotfiles Manager",
-    thumbnail: "assets/images/works/sample-04.svg",
-    date: "2026-02-11",
-    type: "Tool",
-    stack: ["Go"],
-    body: `
-      <p>サンプルです。複数のマシン間で設定ファイルを同期する小さなコマンドラインツールです。</p>
-    `
-  }
+  
 ];

@@ -32,8 +32,8 @@ window.WORKS = [
     title: "ファイル変換拡張機能",
     thumbnail: "assets/images/works/ファイル変換拡張機能.png",
     date: "2026-11-15",
-    type: "Web",
-    stack: ["HTML", "CSS", "JavaScript"],
+    type: "Chrome拡張機能",
+    stack: ["TypeScript", "Chrome Extension", "Vite"],
     body: `
       <p>ファイル変換をローカルで完結させることができるChrome拡張機能です。<br>サイドパネルにファイルをドラッグ&ドロップするか、コピーしたファイルをペーストし、変換先のファイル形式を選択します。また、Chromeの読み取り権限を与えることで、画像ファイル上で右クリックをすると直接変換して保存することができます。<br><a href="https://github.com/tqmirtex/chromium-converter">こちら</a>からダウンロードが可能です。</p>
     `

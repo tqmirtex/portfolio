@@ -1370,9 +1370,10 @@ main { position: relative; }
 
 .hero__avatar {
   position: absolute;
-  top: 0;
+  top: 50%;
   right: var(--s-lg, 24px);
-  width: 340px;
+  transform: translateY(-50%);
+  width: 240px;
   height: auto;
   pointer-events: none;
 }
@@ -1380,7 +1381,8 @@ main { position: relative; }
 @media (max-width: 1311px) {
   .hero__avatar { display: none; }
   .hero__title { text-align: center; }
-  .profile { margin-left: auto; margin-right: auto; }
+  .profile { margin-left: auto; margin-right: auto; max-width: 400px; }
+  .profile__row { grid-template-columns: 110px 1fr; }
   .hero .social { justify-content: center; }
 }
 
@@ -1852,6 +1854,7 @@ main { position: relative; }
   :root { --s-section: 72px; }
   .container { padding: 0 var(--s-base); }
   .hero { padding-top: 72px; }
+  .hero__inner { padding: 0 40px; }
   .profile { margin-top: var(--s-xxl); }
   .profile__row { grid-template-columns: 1fr; gap: 4px; }
   .card-grid { grid-template-columns: 1fr; }

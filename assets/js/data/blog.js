@@ -13,5 +13,6 @@
  */
 window.BLOG = [
   { title: "「PHP騒動」って結局何だったの？専門知識ゼロでもわかる！図解でやさしく解説", date: "2026-11-12", type: "note",  link: "https://note.com/wavecoreinc/n/ne6cce68a6188" },
-  { title: "【独自検証】 AI画面操作「Computer Use」はどこまでで役に立つ？話題の最新AIモデルに実際に仕事をさせてみた",   date: "2026-11-07", type: "note",  link: "https://note.com/wavecoreinc/n/n2995ad2f439a" },
+  { title: "【独自検証】 AI画面操作「Computer Use」はどこまでで役に立つ？話題の最新AIモデルに実際に仕事をさせてみた", date: "2026-11-07", type: "note",  link: "https://note.com/wavecoreinc/n/n2995ad2f439a" },
+  { title: "誰でも無料で'最強の相棒'を。話題のAI「Muse」を使ってみた！", date: "2026-11-21", type: "note",  link: "https://note.com/wavecoreinc/n/n9d8007b43bab" },
 ];
